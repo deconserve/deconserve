@@ -1,41 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>De conserve</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
 
-    <script src="https://rawgit.com/vinyll/anywhere/master/dist/anywhere.js"></script>
-    <script>Anywhere = {user: "deconserve", repo: "deconserve", branch: "articles"}</script>
+  <title>De conserve</title>
 
-    <style>
-    body {
-        line-height: 1.6em;
-        font-size: 20px;
-    }
+  <link rel="stylesheet" href="css/app.css">
+  <script src="https://rawgit.com/vinyll/anywhere/master/dist/anywhere.js"></script>
+  <script>Anywhere = {user: "deconserve", repo: "deconserve", branch: "articles"}</script>
 
-    nav a {
-        display: inline-block;
-        text-decoration: none;
-        color: inherit;
-    }
-    nav a:not(:last-child):after {
-        content: "|";
-        padding: 10px;
-    }
-    nav a:last-child {
-        border-right: none;
-    }
-
-    article {
-        margin: 2em 10em;
-    }
-    </style>
 </head>
 <body>
+  <header>
+    <img src="images/deconserve.svg" alt="DeConserve">
     <nav data-anywhere="nav"></nav>
+  </header>
 
-    <article data-anywhere="profil-sol"></article>
-
+  <main>
+    <article data-anywhere="homepage"></article>
+  </main>
 </body>
 </html>

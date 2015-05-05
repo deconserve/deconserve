@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "OCRF";
+  src: url("./OCRF-regular.ttf");
+}
+
+body {
+  line-height: 1.6em;
+  font-size: 20px;
+  box-sizing: border-box;
+  padding: 1em;
+  font-family: OCRF, Serif;
+}
+
+header {
+  border-bottom: 2px solid #000;
+  padding-bottom: 1em;
+}
+header:after {
+    content:'';
+    display:block;
+    clear: both;
+}
+
+header img {
+  height: 2em;
+  display: inline-block;
+}
+
+nav {
+  float: right;
+  font-size: .8em;
+  font-weight: 500;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+}
+nav a:not(:last-child):after {
+  content: "|";
+  padding: 10px;
+}
+nav a:last-child {
+  border-right: none;
+}
+
+main {
+  padding: 1em;
+}
+
+article a {
+  color: inherit;
+}
