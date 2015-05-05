@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "OCRF";
-  src: url("./OCRF-regular.ttf");
+  font-family: "Ocrf";
+  src: url("./ocrf-regular.ttf");
 }
 
 body {
@@ -8,7 +8,7 @@ body {
   font-size: 20px;
   box-sizing: border-box;
   padding: 1em;
-  font-family: OCRF, Serif;
+  font-family: Ocrf, Serif;
 }
 
 header {
