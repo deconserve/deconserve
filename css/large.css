@@ -1,0 +1,28 @@
+
+header nav.init.collapsed {
+  height: inherit;
+  max-height: inherit;
+}
+header button {
+  display: none;
+}
+nav {
+  font-weight: 500;
+}
+
+nav a {
+  border-right: 0;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  padding: inherit;
+  border-bottom: inherit;
+  text-transform: uppercase;
+}
+nav a:not(:last-child):after {
+  content: "|";
+  padding: 10px;
+}
+nav a:last-child {
+  border-right: none;
+}
