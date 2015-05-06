@@ -1,4 +1,13 @@
+body {
+  padding: 0;
+}
 
+header {
+  position: fixed;
+  background: inherit;
+  width: 100%;
+  padding: 1em 1em 0 1em;
+}
 header nav.init.collapsed {
   height: inherit;
   max-height: inherit;
@@ -25,4 +34,8 @@ nav a:not(:last-child):after {
 }
 nav a:last-child {
   border-right: none;
+}
+
+main {
+  padding-top: 100px;
 }
