@@ -8,4 +8,4 @@ Des articles de fond traiteront de thèmes variés répartis en six thématiques
 Les utilisateurs pourront filtrer les contenus en fonction de la surface dont ils disposent (en intérieur, balcon / terrasse, jardin...) et du climat.
 
 
-Le site n'est pas encore actif mais vous pouvez d’ores et déjà nous soumettre des idées de sujets, des témoignages ou vous tenir informés de nos avancées en nous contactant par mail à : [ahoy@deconserve.org](mailto:ahoy@deconserve.org)
+Le site est encore en construction mais vous pouvez d’ores et déjà nous soumettre des idées de sujets, des témoignages ou vous tenir informés de nos avancées en nous contactant par mail à : [ahoy@deconserve.org](mailto:ahoy@deconserve.org)
