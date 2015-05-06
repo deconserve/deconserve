@@ -10,4 +10,4 @@ Cette rubrique portera sur les aspects suivants :
 - _Semences_ : graines et semis, récolter et conserver les graines, association de plantes, calendrier, conditions …
 
 
-- _Techniques de culture_ : en sol (carré, buttes), hors sol (bacs et pots, aquaponie, hydroponie).
+- _Techniques de culture_ : en sol (carré, buttes), hors sol (bacs et pots, [aquaponie](/#articles/aquaponie), hydroponie).
