@@ -8,13 +8,16 @@
       // When DOM is ready (here), attempt to load content from url hash.
       this.updateArticleContentFromUrl(e);
 
-      // When the nav is loaded from Github, listen to clicks and dispatch `body.update`
-      document.querySelector('header nav').addEventListener('update', function(e) {
-      [].map.call(document.querySelectorAll('header nav a'), function(a) {
-        a.addEventListener('click', function(e) {
-          document.querySelector('body').dispatchEvent(new CustomEvent('update', {
-            'detail': {'target': a}
-          }));
+
+      // When an article is loaded from Github, listen to clicks and dispatch `body.update`
+      [].map.call(document.querySelectorAll('[data-anywhere]'), function(container) {
+        container.addEventListener('update', function(e) {
+          [].map.call(e.target.querySelectorAll('a'), function(a) {
+            a.addEventListener('click', function(e) {
+              document.querySelector('body').dispatchEvent(
+                new CustomEvent('update', {'detail': {'target': a}}
+              ));
+          });
         });
       });
     });
