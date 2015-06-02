@@ -1,4 +1,4 @@
-**En commun** [en construction]
+**Projets partagés** [en construction]
 
 
 Cette rubrique portera sur les aspects suivants :
