@@ -1,4 +1,4 @@
-**Maison, santé, conservation** [en construction]
+**Maison, conservation, santé** [en construction]
 
 
 Cette rubrique portera sur les aspects suivants :
